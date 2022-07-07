@@ -1,0 +1,31 @@
+body{
+    background:rgb(31, 31, 32);
+    display:flex;
+    justify-content: center;
+   
+}
+
+
+.container{
+    margin-top:300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+}
+
+
+.item{
+    width: 5px;
+    height: 5px;
+    margin: 3px;
+    background:lightblue;
+    /* border: 1px solid black; */
+    box-shadow:
+    0 0 .5px .5px #fff;
+}
+
+.button{
+    
+    width: 50px;
+}
